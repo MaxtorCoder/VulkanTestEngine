@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{9826a0fb-4c7c-4dd9-af1b-3c08f3d63bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{41919b9c-db85-4918-a72a-9978e45ed4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{3a24a292-9d69-4f0e-9834-6479a5185100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
